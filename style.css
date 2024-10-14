@@ -211,7 +211,7 @@ nav h5 {
 
 #mission {
     width: 100%;
-    height: 100vh;
+    height: 30vh;
     /* background-color: darkblue; */
     display: flex;
     justify-content: center;
@@ -370,7 +370,7 @@ nav h5 {
 }
 
 .prright a::after {
-    content: 'Truffle Alter';
+    content: 'Trial';
     position: absolute;
     font-size: 30px;
     font-family: 'rz';
@@ -384,19 +384,19 @@ nav h5 {
 }
 
 #link3::after {
-    content: 'Châtelet';
+    content: 'Valentines Event';
 }
 
 #link5::after {
-    content: 'Théâtre de la Ville de Paris';
+    content: 'Collab Event';
 }
 
 #link4::after {
-    content: 'Cahn Wilson';
+    content: 'Post Winter Break';
 }
 
 #link6::after {
-    content: 'Opéra national du Rhin';
+    content: 'More To Be?';
 }
 
 .prleft a {
@@ -426,7 +426,7 @@ nav h5 {
 }
 
 .prleft a::after {
-    content: 'Truffle Alter';
+    content: 'Second Event';
     position: absolute;
     font-size: 30px;
     font-family: 'rz';
@@ -463,7 +463,7 @@ nav h5 {
     font-weight: 400;
     text-decoration: none;
     color: black;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 
 #footerpart {
