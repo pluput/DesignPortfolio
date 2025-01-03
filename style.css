@@ -331,15 +331,21 @@ nav h5 {
 
 .imgdimension {
     width: 490px;
-    height: 800px;
+    height: auto;
     /* background-color: rgb(139, 128, 240); */
     position: relative;
     overflow: hidden;
+    /* width: 100%; Ensure the image fills the container without exceeding */
+    /* height: auto; Maintain the aspect ratio */
+    /* transform-origin: center; */
 }
 
 .imgdimension img {
-    width: 122%;
+    width: 100%;
     transform-origin: center;
+    /* width: 100%; Fit the image inside the container */
+    /* height: auto; Maintain the aspect ratio */
+    /* transform-origin: center; Center transformations */
 }
 
 .prright a {
@@ -369,7 +375,7 @@ nav h5 {
 }
 
 .prright a::after {
-    content: 'Trial';
+    content: 'Valentines Market';
     position: absolute;
     font-size: 30px;
     font-family: 'rz';
@@ -383,7 +389,7 @@ nav h5 {
 }
 
 #link3::after {
-    content: 'Valentines Event';
+    content: 'Cinematic Market';
 }
 
 #link5::after {
@@ -391,7 +397,7 @@ nav h5 {
 }
 
 #link4::after {
-    content: 'Post Winter Break';
+    content: 'Winter Market';
 }
 
 #link6::after {
@@ -425,7 +431,7 @@ nav h5 {
 }
 
 .prleft a::after {
-    content: 'Second Event';
+    content: 'Instagram Content';
     position: absolute;
     font-size: 30px;
     font-family: 'rz';
@@ -593,7 +599,7 @@ nav h5 {
     z-index: -1;
     right: 0px;
     opacity: 0.5;
-    background-image: url("images/Screenshot 2024-10-13 at 6.29.57 PM.png");
+    background-image: url("images/mvm\ logo.png");
 }
 
 .outerdim {
