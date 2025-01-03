@@ -591,10 +591,10 @@ nav h5 {
 }
 
 #backgrimg {
-    width: 70%;
+    width: 50%;
     height: 100vh;
     position: absolute;
-    background-color: teal;
+    /* background-color: teal; */
     top: -30%;
     z-index: -1;
     right: 0px;
